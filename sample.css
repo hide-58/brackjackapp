@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+#table {
+  background: url(board.png) no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#table td {
+  position: relative;
+  text-align: center;
+}
+
+#table button {
+  width: 100%;
+}
+
+.total {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  border: 2px solid;
+  font-size: 30px;
+  width: 1.5em;
+  text-align: center;
+}
+
+#myTotal {
+  background-color: #0961a3;
+  bottom: 10px;
+}
+
+#comTotal {
+  background-color: #d53633;
+  top: 10px;
+}
